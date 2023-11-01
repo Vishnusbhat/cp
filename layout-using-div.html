@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        :root{
+            --color-1: #E63946;
+            --color-2: #F1FAEE;
+            --color-3: #A8DADC;
+            --color-4: #457B9D;
+            --color-5: #1D3557;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            width: 100%;
+            height: 100vh;
+        }
+        .heading{
+            font-family: sans-serif;
+            text-align: center;
+            font-size: 3rem;
+            color: var(--color-2);
+        }
+        .inner--container{            
+            min-height: 90vh;
+            min-width: 80%;   
+            ;         
+        }
+        .border{
+            width: 95%;
+            height: 85%;
+        }
+        .content{
+            width: 100%;
+            height: 24%;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 2rem;
+            
+        }
+        .flex{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container flex">
+        <div class="inner--container flex"  style="background-color: var(--color-1);">
+            <span class="heading flex">UVCE</span>
+            <div class="border flex">
+                <div class="content flex" style="background-color: var(--color-2);">Entrance</div>
+                <div class="content flex" style="background-color: var(--color-4);">Offices</div>
+                <div class="content flex" style="background-color: var(--color-3);">Classrooms</div>
+                <div class="content flex" style="background-color: var(--color-4);">Labs and Drawing rooms</div>
+                <div class="content flex" style="background-color: var(--color-5);">Canteen</div>
+            </div>
+        </div>
+    </div>    
+</body>
+</html>
